@@ -1,4 +1,4 @@
-# IP Map Tracker
+# IP Address Tracker
 
 My take on [frontendmentor's IP Address Tracker](https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0) challenge.
 
