@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+    crossorigin=""/>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
+    integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
+    crossorigin=""></script>
+    <title>IP-Address Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>IP Address Tracker</h1>
+        <div id="search">
+            <input id="searchBar" type="text" placeholder="Search for any IP adress or domain">
+            <button id="searchButton">
+                <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
+            </button>
+        </div>    
+    </header>
+    <div id="infoOuter">
+        <div id="infoInner">
+            <div class="infoChild">
+                <h2>IP ADRESS</h2> 
+                <p id="ipAddress">19283791283713123</p>
+            </div>
+            <div class="infoChild">
+                <h2>LOCATION</h2> 
+                <p id="location">19283791283713123</p>
+            </div>
+            <div class="infoChild">
+                <h2>TIMEZONE</h2> 
+                <p id="timezone">19283791283713123</p>
+            </div>
+            <div class="infoChild">
+                <h2>ISP</h2> 
+                <p id="isp">19283791283713123</p>
+            </div>
+        </div>
+    </div>
+    <div id="map"></div> 
+    <script src="index.js"></script>
+</body>
+</html>
